@@ -37,6 +37,13 @@ ol, ul {
 	list-style: none;
 }
 
+dt:before {
+  content: 'Q: ';
+}
+dd:before {
+  content: ' ';
+}
+
 blockquote, q {
 	quotes: none;
 }

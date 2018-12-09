@@ -49,6 +49,7 @@
 							<li><a href="design_refinement.html">Design Refinement</a></li>
 							<li><a href="heuristic_evaluation.html">Heuristic Evaluation</a></li>
 							<li><a href="usability_study.html">Formal Usability Study</a></li>
+							<li><a href="final_refinement.html">Final Refinement</a></li>
 						</ul>
 					</nav>
 
@@ -90,6 +91,106 @@
 							<p><b>Also explain how many subjects you would ideally test, how many iterations each would participate in, and if each participant tries multiple conditions, how these conditions would be ordered and distributed over participants.</b></p>
 							<p>Ideally, we would want to test at least twenty subjects with varying degrees technological literacy. Each user would participate in both conditions, with half starting with the simple settings option and the other half starting with the advanced settings option.</p>
 
+
+							<h2>Report</h2>
+							<p><b>General Overview</b></p>
+
+							<p>We conducted formal usability testing on three users, followed by informal testing with each of these users. One user interacted with the simple settings page before interacting with the advanced settings page, while the other two interacted with the advanced settings page first.</p>
+
+							<p>Overall, the advanced settings page seemed to be more popular with users despite raising more questions and concerns. The concerns for the simple settings page, however, were generally more severe in the sense that users were asking for personalization not currently included as opposed to clarification about a feature. For example, when viewing the simple settings page, users expected to be able to blacklist topics as well as edit sources, which are functions included in the advanced settings page. In contrast, one common question after viewing the advanced settings page was what “whitelist” means. In addition, most of the concerns for the advanced settings page also applied to the simple settings page. This included being able to adjust granularity of topics (e.g. show taxes but not Trump-related taxes), see suggestions for topics (based on popularity or similar users), and setting political affiliation. We can thus tentatively conclude that the advanced settings page seems to align more closely with user expectations, contrary to our hypothesis.</p>
+
+							<h4>User #1 (simple, then advanced)</h4>
+							<dl>
+								<dt>What do you expect to see in the settings page, given our directions?</dt>
+								<dd>Hashtags that you don’t want to see<br>
+								Choosing sources<br>
+								Preferred topics<br>
+								Option to change location
+								</dd>
+								<dt>Now that you have seen the first settings page, what do you expect to be able to personalize?</dt>
+								<dd>Location<br>
+								Add topics<br>
+								Can’t add topics that you don’t want to see
+								</dd>
+								<dt>Now that you have seen the second settings page, what do you expect to be able to personalize?</dt>
+								<dd>Doesn’t know what whitelisted means<br>
+								Feels like she can drag topics<br>
+								Add topics and sources<br>
+								Can still change her location
+								</dd>
+								<dt>What other settings might you expect to be able to personalize?</dt>
+								<dd>Set age and political affiliation<br>
+								Setting sources you like/agree with<br>
+								Putting whether or not you want to see just articles you agree with<br>
+								Politics vs. fluffy news
+								</dd>
+							</dl>
+
+							<h4>User #2 (advanced, then simple)</h4>
+							<dl>
+								<dt>What do you expect to see in the settings page, given our directions?</dt>
+								<dd>Date filters<br>
+								Topic filters<br>
+								Excluding sources<br>
+								Being able to share articles<br>
+								Being able to save them
+								</dd>
+								<dt>Now that you have seen the first settings page, what do you expect to be able to personalize?</dt>
+								<dd>Granularity of topics - want to see taxes but not trump related taxes<br>
+								Suggestions for topics - based on similar/popular topics<br>
+								Might make more sense to blacklist sources instead of whitelist<br>
+								Maybe have a pre-defined list of topics to mark/filter<br>
+								</dd>
+								<dt>Now that you have seen the second settings page, what do you expect to be able to personalize?</dt>
+								<dd>Makes more sense if ordering does anything<br>
+								Is easier to understand/follow with your eyes<br>
+								Would still like some of the advanced topics
+								</dd>
+								<dt>What other settings might you expect to be able to personalize?</dt>
+								<dd>Date filters<br>
+								Excluding sources
+								</dd>
+							</dl>
+
+							<h4>User #3 (advanced, then simple)</h4>
+							<dl>
+								<dt>What do you expect to see in the settings page, given our directions?</dt>
+								<dd>Favorite topics and sources<br>
+								Topics and sources you don’t want to see<br>
+								Add or remove location
+								</dd>
+								<dt>Now that you have seen the first settings page, what do you expect to be able to personalize?</dt>
+								<dd>(Frustration with trying to reorder topics on basic settings, didn’t find advanced settings for a solid minute)<br>
+								What’s whitelisting? Oh wait never mind<br>
+								Why are there two pages for this, you’re basically doing the same thing on the first page as you are with the first part of the advanced page?<br>
+								Blacklist sources<br>
+								Suggested topics, do you have to add these yourself?
+								</dd>
+								<dt>Now that you have seen the second settings page, what do you expect to be able to personalize?</dt>
+								<dd>I feel like I’d be more passionate about not wanting to see a topic than I would to see a topic (blacklist/whitelist)<br>
+								This sort of list ordering is much easier to use<br>
+								Why can’t I change sources?
+								</dd>
+								<dt>What other settings might you expect to be able to personalize?</dt>
+								<dd>Political affiliation<br>
+								Along that line, only see articles related to your point of view<br>
+								Search for a combination of topics
+								</dd>
+							</dl>
+
+							<p><b>Interpretation</b></p>
+							
+							<p>If these results held with a larger user population, we can conclude our current advanced settings page aligns more closely with user expectations, given some moderate changes. In particular, blacklisting and whitelisting topics and sources is something users want from a settings page, reflected by our advanced settings option, although “preferred” topics and sources seems to be a more universally understood term than “whitelisted” topics and sources. Furthermore, if the trend continues to hold, we may want to expand our (advanced) settings page to include more adjustable features such as setting political affiliation and adjusting granularity of topics. Overall, while users do not want complete control of what they see on their feed, they want the option to control the filters behind what they see.</p>
+
+							<p><b>Explanation</b></p>
+
+							<p>In response to both our formal and informal usability testing, we moved back to our advanced settings page, in which users are able to filter both topics and sources they want to see and don’t want to see. All the users we asked wanted to be able to blacklist topics and sources instead of just adjusting preferred topics. However, there are some changes in place. First, instead of “whitelisted” topics or sources, users can now adjust “preferred” topics or sources. This change reflects the confusion many users had about the meaning of “whitelisting”.</p>
+
+							<p>In addition, our original advanced settings option contained two pages: the first only allowed users to change location and add or remove topics; users had to go to the second “advanced” page to rank, add, or remove preferred or blacklisted items. This ended up confusing and really frustrating at least two users because it took them a while to realize there was a second page, and they were further confused by the fact that the actions on the first page could also be done on the second page. As a result, we combined both pages into one.</p>
+
+							<p>Finally, we adopted the single column layout from our basic settings prototype into our advanced settings page. For all of our users, having a widescreen column of items, each with a set of dots on the side, was more intuitive to drag and rank than an unjustified list of items with no dots, which was what we originally had in our advanced settings page.</p>
+
+							<p>With more time, we intend to test out further adjustable options in the settings page, including but not limited to setting political affiliation, adjusting granularity of topics, filtering by date, and having a list of suggested topics to choose from to add into preferred settings. Some ideas seem to be common across users and may be helpful to include, although further testing would be required to test whether users would actually want them when presented with an interactive prototype.</p>
 
 						</div>
 					</div>
